@@ -1,0 +1,85 @@
+@import "/src/sass/colors.scss", "/src/sass/resets.scss", "/src/sass/fonts.scss";
+
+html {
+  background-color: var(--main-bg-color);
+  padding-top: 35px;
+}
+
+.nft-card {
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  height: 545px;
+  width: 317px;
+  background-color: var(--card-bg-color);
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 17px;
+
+  &__image {
+    height: 270;
+    width: 200;
+    border-radius: 10px;
+  }
+
+  &__title {
+    color: var(--white-color);
+    font-weight: 600;
+  }
+
+  &__paragraph {
+    color: var(--main-color);
+    font-weight: 300;
+    margin-top: -10px;
+  }
+
+  &__line {
+    background-color: var(--line-color);
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.eth-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  &__import {
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+
+  &__counter {
+    color: var(--main-color);
+    font-weight: 300;
+  }
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+  &__image {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 20px;
+  }
+
+  &__text {
+    margin-top: 12px;
+    color: var(--main-color);
+    font-weight: 300;
+  }
+}
+
+.white {
+  color: white;
+}

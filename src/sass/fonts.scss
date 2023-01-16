@@ -1,0 +1,12 @@
+@import url(/node_modules/@fontsource/outfit/300.css);
+@import url(/node_modules/@fontsource/outfit/400.css);
+@import url(/node_modules/@fontsource/outfit/600.css);
+
+:root {
+  --main-typography: "outfit", sans-seriff;
+}
+
+body {
+  font-size: 18px;
+  font-family: var(--main-typography);
+}
